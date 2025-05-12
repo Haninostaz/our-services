@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color:#e5e2e2;
+}
+header{
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    display:flex;
+    z-index: 100;
+    height: 90px;
+    margin: -10px;
+    box-shadow: 0px 10px 60px 20px rgb(197, 193, 193);
+}
+.title{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: left;
+    clear: left;
+    margin: 15px;
+    color: #2828a8;
+}
+nav{
+    position:absolute;
+    right:0;
+    color: rgb(40, 40, 168);
+    font-size: 25px;
+    margin: 30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    }
+b{
+    padding: 10px;
+}
+article{
+    margin-top: 20px;
+    z-index: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.service{
+    color:rgba(40, 40, 168, 0.922);
+    font-size: 200px;
+    padding-bottom: 200px;
+    text-transform: capitalize;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.page{
+    position: relative;
+    text-align: center;
+    padding: 150px;
+    
+}
+.icons{
+    position: absolute;
+    left: 20px;
+    display: flex;
+    margin-top: -70px;
+   
+}
+
+.icons img{
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+    margin: 20px;
+}
+.icons img:hover{
+    opacity: 65%;
+    width: 260px;
+    height: 260px;
+}
+.list {
+    padding-top: 300px;
+    border-bottom:2px solid black;
+    margin-bottom: 50px;
+}
+
+.list section{
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    width: 1300px;
+    height: 400px;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.list b{
+    color:rgba(40, 40, 168, 0.922);
+    font-size: 40px;
+    text-transform: capitalize;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+b span{
+    text-transform:uppercase;    
+}
+.list p{ 
+    padding: 10px;
+    width: 800px;
+}
+.list section::before{
+    content:" ";
+    width: 0;
+    height: 390px;
+    position:absolute;
+    left: -9px;
+    top: -1px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#2828a8;
+}
+.list img {
+    margin-left: 900px;
+    margin-top: -220px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.list button{
+    font-size: 19px;
+    font-weight: bold;
+    background-color:  #acacdf;
+    color: #1c1c8c;
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    right:0;
+    margin-top: 40px;
+    margin-right: 480px;
+    border-radius: 10px;
+    border:none;
+
+}
+.list button:hover{
+    box-shadow: 5px 10px 10px  #266ebba3 inset;
+    margin-top:35px ;
+    transition-duration:1ms;
+}
+footer{
+    position: relative;
+    margin-left: 10px;
+    background-color:#e5e2e2;
+    margin-bottom: -10px;
+    font-size: 25px;
+}
+.con {
+    position: absolute;
+    z-index:9; 
+    width: 600px;
+    height: 550px;
+    background-color: #f8f8f8;
+    left:0;
+    padding-top: 50px;
+    border-radius: 30px;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+footer b{
+    color:rgba(40, 40, 168, 0.922);
+    text-shadow: 5px 5px rgb(171, 168, 204);
+    font-size: 70px;
+    text-transform: capitalize;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer img{
+    width: 800px;
+    z-index: 6;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left:240px;
+}
+
+footer form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+    margin: 0px 80px;
+    padding: 20px;
+    font-size:30px;
+}
+form input{
+    height: 30px;
+    width: 400px;
+
+}
+form textarea{
+    height: 150px;
+    width: 400px;
+}
+form label{
+    color:rgb(102, 110, 116);
+    padding-right: 15px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;    
+    font-family: Tahoma;
+}
+footer button{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #72bde5;
+    color: #4f4277;
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    border:none;
+}
+footer button:hover{
+    background-color: rgb(9, 160, 9);
+}
